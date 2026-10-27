@@ -18,7 +18,7 @@ git clone https://github.com/doi-dot-bio/mcp doibio-mcp
 node doibio-mcp/index.js        # speaks MCP on stdin/stdout
 ```
 
-Once the package is published to npm: `npx @doi-dot-bio/mcp`.
+Or run it from npm without cloning: `npx -y @sness/doibio-mcp`.
 
 ## Configuration
 
@@ -103,4 +103,4 @@ npx mocha tests/mcp.test.js     # end to end: the real app on an ephemeral port,
 
 This directory is mirrored by hand to the
 [`doi-dot-bio/mcp`](https://github.com/doi-dot-bio/mcp) repository; `npm publish`
-runs from there (package `@doi-dot-bio/mcp`).
+runs from there (package `@sness/doibio-mcp`).
