@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "description": "MCP server for doi.bio: search, read, edit, fork and create vaults over the HTTP API",
   "bin": {
-    "doibio-mcp": "./index.js"
+    "doibio-mcp": "index.js"
   },
   "main": "./lib/tools.js",
   "engines": {
     "node": ">=18"
   },
   "license": "MIT",
-  "repository": "github:doi-dot-bio/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doi-dot-bio/mcp.git"
+  },
   "files": [
     "index.js",
     "lib",
