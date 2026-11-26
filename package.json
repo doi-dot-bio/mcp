@@ -1,6 +1,6 @@
 {
   "name": "@sness/doibio-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for doi.bio: search, read, edit, fork and create vaults over the HTTP API",
   "bin": {
     "doibio-mcp": "index.js"
